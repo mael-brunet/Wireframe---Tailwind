@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <title> Accueil</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/images/favicon.ico">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-main">
+
+  <header class="mb-5 relative bg-colheader h-20 border-b-4 border-black flex flex-col justify-center items-center">
+    <a class="absolute left-2" href="/src/views/menu.html"><img class="w-20 h-16" src="/src/images/profil.png"></a>
+    <a href="/src/index.html"><img class="w-20 h-16" src="/src/images/logo.png"></a>
+    <a class="absolute right-2" href="/src/views/search.html"><img class="w-20 h-16" src="/src/images/loupe.png"></a>
+  </header>
+
+<main class= "child:font-monkey flex flex-col items-center">
+  <div class="text-3xl mb-4">Top trending</div>
+  <div class="w-1/3 z-3 outline outline-4 rounded-lg cursor-pointer"
+  style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)"> 
+  <img class="absolute rounded-full h-20 w-20 outline outline-4 z-10 top-[115px] left-[465px]" 
+  style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)"
+  onclick="location.href='/src/views/chaine.html'"
+  src="/src/images/randonneur.jpg">
+    <div onclick="location.href='/src/views/visionnage.html'">
+      <img src="/src/images/montagne.jpg">
+    </div>
+    <div class="z-2 text-center bg-white border-t-4 text-3xl"
+    onclick="location.href='/src/views/visionnage.html'">
+      Top 10 montagnes
+    </div>
+  </div>
+
+  <img class="pt-8 h-16 w-16 mb-8" src="/src/images/fleche.png">
+
+    <div class="text-3xl mb-4">Vos abonnements</div>
+    <div class="w-1/3 z-3 outline outline-4 rounded-lg cursor-pointer"
+    style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)">
+    <img class="absolute rounded-full h-20 w-20 outline outline-4 z-10 bottom-[25px] left-[465px]" 
+    style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)"
+    onclick="location.href='/src/views/chaine.html'"
+    src="/src/images/chatminia.jpg"> 
+      <div onclick="location.href='/src/views/visionnage.html'">
+        <img src="/src/images/chat.jpg">
+      </div>
+      <div class="z-2 text-center bg-white border-t-4 text-3xl"
+      onclick="location.href='/src/views/visionnage.html'">
+        Top 10 chats
+      </div>
+    </div>
+  
+    <img class="pt-8 h-16 w-16 mb-8" src="/src/images/fleche.png">
+</main>
+</body>
+</html>

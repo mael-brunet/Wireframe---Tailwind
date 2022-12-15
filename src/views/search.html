@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title> Rechercher</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/images/favicon.ico">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-main">
+  <header class="mb-5 relative bg-colheader h-20 border-b-4 border-black child:pt-2">
+    <a class="absolute left-2" href="/src/views/menu.html"><img class="w-20 h-16" src="/src/images/profil.png"></a>
+    <div class="flex flex-col items-center">
+        <div class="flex flex-row items-center">
+            <div>
+                <div class="text-4xl font-monkey mb-2"> Mon |</div>
+                <div class="border-b-4 w-96"></div>
+            </div>   
+        <a href="/src/views/result.html"><img class="w-20 h-16" src="/src/images/loupe.png"></a>
+        </div>
+        <a class="absolute right-2" href="/src/index.html"><img class="w-20 h-16" src="/src/images/back.png"></a>
+    </div>
+  </header>
+<main class="child:font-monkey flex flex-col items-center mb-8 child:text-4xl child:mb-8">
+     <div class="cursor-pointer" onclick="location.href='/src/views/result.html'"> Montagne </div>
+     <div class="cursor-pointer" onclick="location.href='/src/views/result.html'"> Montage </div>
+     <div class="cursor-pointer" onclick="location.href='/src/views/result.html'"> Mont Saint Michel </div>
+</main>
+</body>
+</html>

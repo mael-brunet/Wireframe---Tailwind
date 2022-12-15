@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title> FootFan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/src/images/favicon.ico">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-main">
+
+  <header class="mb-5 relative bg-colheader h-20 border-b-4 border-black flex flex-col justify-center items-center">
+    <a class="absolute left-2" href="/src/views/menu.html"><img class="w-20 h-16" src="/src/images/profil.png"></a>
+    <a href="/src/index.html"><img class="w-20 h-16" src="/src/images/logo.png"></a>
+    <a class="absolute right-2" href="/src/views/search.html"><img class="w-20 h-16" src="/src/images/loupe.png"></a>
+  </header>
+
+<main class= "child:font-monkey flex flex-col items-center">
+
+    <div class="flex flex-row items-center mb-12 mt-4">
+        <img class="rounded-full h-20 w-20 outline outline-4 mr-8" 
+        style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)"
+        src="/src/images/ballon2.jpg">
+        <div class="text-3xl">FootFan</div>
+    </div>
+    
+    <div class="w-1/3 z-3 outline outline-4 rounded-lg mb-12 cursor-pointer"
+    onclick="location.href='/src/views/visionnage.html'" 
+    style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)"> 
+        <div>
+            <img src="/src/images/but1.jpg">
+        </div>
+        <div class="z-2 text-center bg-white border-t-4 text-3xl">
+            Top buts euro 2016
+        </div>
+    </div>
+
+    <div class="w-1/3 z-3 outline outline-4 rounded-lg cursor-pointer" 
+    onclick="location.href='/src/views/visionnage.html'" 
+    style="box-shadow:10px 10px 11px 0px rgba(0,0,0,0.5), -10px -10px 15px 0px rgba(255,255,255,1)"> 
+        <div>
+        <img src="/src/images/arret.jpg">
+            </div>
+        <div class="z-2 text-center bg-white border-t-4 text-3xl">
+        Meilleurs arrêts 2022
+        </div>
+    </div>
+  
+    <img class="pt-8 h-16 w-16 mb-8 cursor-pointer" src="/src/images/fleche.png">
+</main>
+</body>
+</html>
